@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Web Site</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <!-- fontawesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+         <!-- Link css-->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+    <!-- cabeçalho-->
+        <header style = "background-image: url('img/fundo.jpg')">
+            <div class = "container">    
+                <nav>
+                    <a href="index.html">
+                        <img src="img/venus.png" alt="logo">
+                    </a>
+                    <ul class = "ul">
+                        <a href="index.html">Home</a>
+                        <a href="blog.html">Blog</a>
+                        <a href="portfolio.html">Portfólio</a>
+                        <a href="servico.html">Serviços</a>
+                        <a class = "btn" href="contato.html">Contato</a>
+                        <div class = "close-icon" onclick = "closeMenu()">
+                            <img src="img/btn-excluir.png" alt="excluir">
+                        </div>
+                    </ul>
+                    <div class = "menu-icon" onclick = "openMenu()">
+                        <img src="img/menu.png" alt="menu">
+                    </div>
+                </nav>
+                    <!-- interface inicial-->
+                <section class = "banner">
+                    <div class = "banner-text">
+                        <h1>BLOG</h1>
+                        <p>Dicas e oportunidades de profissionais para conquistar as melhores posições nos seus negócios.</p>
+                        <a href="contato.html" class = "btn">Entrar em Contato</a>
+                    </div>
+                </section>
+            </div>
+        </header>
+        <!-- interface marketing1-->
+           <section class = "sobre">
+            <div class = "container">
+                <div class = "sobre-img">
+                    <img src="img/marketing.jpg" alt="blog venus">
+                </div>
+                <div class = "sobre-text">
+                    <h3>Entrevista com os fundadores da Agência Venus</h3>
+                    <p>What is Lorem Ipsum?
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                     <a href="contacto.html" class = "btn animate-btn">Entrar em contato</a>
+                </div>
+            </div>
+        </section>
+        <!-- footer-->
+        <footer class = "footer">
+            <div class = "container">
+                <div class = "links">
+                    <a href = "#"><img src="img/instagram.png" alt="redes sociais"></a>
+                    <a href = "#"><img src="img/facebook.png" alt="redes sociais"></i></a>
+                    <a href = "#"><img src="img/github.png" alt="redes sociais"></i></a>
+                    <a href = "#"><img src="img/linkedin.png" alt="redes sociais"></i></a> 
+                </div>
+                <p>Encontre-nos</p>
+            </div>
+        </footer>
+        <script src = "js/script.js"></script>
+    </body>
+</html>

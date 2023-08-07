@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Web Site | Contato</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <!-- fontawesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+         <!-- Link css-->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+    <!-- cabeçalho-->
+        <header style = "background-image: url('img/')">
+            <div class = "container">    
+                <nav>
+                    <a href="index.html">
+                        <img src="img/venus.png" alt="logo">
+                    </a>
+                    <ul class = "ul">
+                        <a href="index.html">Home</a>
+                        <a href="blog.html">Blog</a>
+                        <a href="portfolio.html">Portfólio</a>
+                        <a href="servico.html">Serviços</a>
+                        <a class = "btn" href="contato.html">Contato</a>
+                        <div class = "close-icon" onclick = "closeMenu()">
+                            <img src="img/btn-excluir.png" alt="excluir">
+                        </div>
+                    </ul>
+                    <div class = "menu-icon" onclick = "openMenu()">
+                        <img src="img/menu.png" alt="menu">
+                    </div>
+                </nav>
+                    <!-- interface inicial-->
+                <section class = "banner">
+                    <div class = "banner-text">
+                        <h1>FAÇA SEU ORÇAMENTO</h1>
+                        <p>Escolha o serviço que melhor  encaixa  em seus negócios, contrua sua marca, conquiste as melhores posições nos seus negócios.</p>
+                        <a href="contato.html" class = "btn">Entrar em Contato</a>
+                    </div>
+                </section>
+            </div>
+        </header>
+        <section class = "contato">
+            <div class = "container">
+                <div class = "mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29438.252746697268!2d-47.668517822768!3d-22.73635788252163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c6313d5775f47d%3A0xe437df1c3ceee735!2sJaragu%C3%A1%2C%20Piracicaba%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1687354322961!5m2!1spt-BR!2sbr" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class = "contato-info">
+                    <div class = "left-side">
+                        <div>
+                            <img src="img/localizar.png" alt="mapa localizacao">
+                            <p>247, Av Presidente Vargas. Jaraguá -Piracicaba-SP. Brasil.</p>
+                        </div>
+                        <div>
+                            <img src="img/email.png" alt="email">
+                            <p>venustech@gmail.com</p>
+                        </div>
+                        <div>
+                            <img src="img/tel.png" alt="telefone">
+                            <p>55 19  35345001</p>
+                        </div>
+                        <div>
+                            <img src="img/tel.png" alt="telefone">
+                            <p>55 19 99098046</p>
+                        </div>
+                    </div>
+                    <div class = "left-side2">
+                        <form action = "">
+                            <input type="text" placeholder = "Nome" required>
+                            <input type="email" placeholder = "E-mail" required>
+                            <input type="assunto" placeholder = "Assunto" required>
+                            <textarea cols="30" rows="10" placeholder = "Sua Mensagem" required></textarea>
+                            <button class = "btn">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                </div>
+            </div> 
+        </section>
+        <!-- footer-->
+        <footer class = "footer">
+            <div class = "container">
+                <div class = "links">
+                    <a href = "#"><img src="img/instagram.png" alt="redes sociais"></a>
+                    <a href = "#"><img src="img/facebook.png" alt="redes sociais"></i></a>
+                    <a href = "#"><img src="img/github.png" alt="redes sociais"></i></a>
+                    <a href = "#"><img src="img/linkedin.png" alt="redes sociais"></i></a> 
+                </div>
+                <p>Encontre-nos</p>
+            </div>
+        </footer>
+        <script src = "js/script.js"></script>
+    </body>
+</html>

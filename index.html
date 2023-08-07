@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Web Site</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <!-- fontawesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+         <!-- Link css-->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+    <!-- cabeçalho-->
+        <header style = "background-image: url('img/fundo.jpg')">
+            <div class = "container">    
+                <nav>
+                    <a href="index.html">
+                        <img src="img/venus.png" alt="logo">
+                    </a>
+                    <ul class = "ul">
+                        <a href="index.html">Home</a>
+                        <a href="blog.html">Blog</a>
+                        <a href="portfolio.html">Portfólio</a>
+                        <a href="servico.html">Serviços</a>
+                        <a class = "btn" href="contato.html">Contato</a>
+                        <div class = "close-icon" onclick = "closeMenu()">
+                            <img src="img/btn-excluir.png" alt="excluir">
+                        </div>
+                    </ul>
+                    <div class = "menu-icon" onclick = "openMenu()">
+                        <img src="img/menu.png" alt="menu">
+                    </div>
+                </nav>
+                    <!-- interface inicial-->
+                <section class = "banner">
+                    <div class = "banner-text">
+                        <h1>AGÊNCIA DIGITAL</h1>
+                        <p>Contrua sua marca, conquiste as melhores posições nos seus negócios.</p>
+                        <a href="contato.html" class = "btn">Entrar em Contato</a>
+                    </div>
+                </section>
+            </div>
+        </header>
+        <!-- interface marketing1-->
+        <section class = "faça-mais">
+            <div class = "container">
+                 <div class = "faça-mais-text">
+                    <h3>Design exclusivo para o seu negócio, alçance o diferencial com a Venus.</h3> 
+                    <p>Criação de Web Site, Loja Virtual, Blog para pequenas, 
+                        médias e grande empresas e também na versão Mobile.</p>
+                       <a href="contato.html" class = "btn animate-btn">Entrar em Contato</a>
+                </div>
+                <div class = "faça-mais-img">
+                    <img src="img/design.jpg" alt="marketing">
+                </div>
+            </div>
+        </section>
+        <!-- interface marketing2-->
+        <section class = "faça-mais">
+            <div class = "container">
+                <div class = "faça-mais-img">
+                    <img src="img/seo.jpg" alt="marketing">
+                </div>
+                 <div class = "faça-mais-text">
+                    <h3>Faça mais pelo seu negócio, escolha a Agência Digital Venus.</h3> 
+                    <p>Alcance seus clientes onde quer que eles estejam.
+                     Venda seus produtos online com a facilidade</p>
+                       <a href="contato.html" class = "btn animate-btn">Entrar em Contato</a>
+                </div>
+            </div>
+        </section>
+        <!-- interface depoimentos-->
+        <section class = "depoimentos">
+            <div class = "container">
+                <h3>Nossos Depoimentos</h3>
+                <p>Leia a opinião de nossos clientes sobre os serviços prestados</p>
+                <div class = "cards">
+                 <!-- cards item 1-->
+                    <div class = "card-item">
+                        <img src="img/cliente.jpg" alt="cliente">
+                        <p class = "nome-user"> Julia Martins</p>
+                        <p class = "depoimento-user">
+                        Contrary to popular belief, Lorem Ipsum is not simply random text. 
+                        It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                        </p>
+                        <div class = "estrelas">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                             <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                     <!-- cards item 2-->
+                    <div class = "card-item">
+                        <img src="img/cliente2.jpg" alt="cliente">
+                        <p class = "nome-user"> Maria Gloria</p>
+                        <p class = "depoimento-user">
+                        Contrary to popular belief, Lorem Ipsum is not simply random text. 
+                        It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                        </p>
+                        <div class = "estrelas">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                     <!-- cards item 3-->
+                    <div class = "card-item">
+                        <img src="img/cliente3.jpg" alt="cliente">
+                        <p class = "nome-user"> Arthur Silveira</p>
+                        <p class = "depoimento-user">
+                        Contrary to popular belief, Lorem Ipsum is not simply random text. 
+                        It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                        </p>
+                        <div class = "estrelas">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </section>
+         <!-- clientes empresas-->
+        <section class = "clientes">
+            <div class = "container">
+                <h3>Nossos Clientes</h3>
+                <p>Prestação de serviços para todo tipo de empresa ou projeto, alguns de nossos parceiros</p>  
+                <div>
+                    <img src="img/natural.png" alt="loja">
+                    <img src="img/lojaGame.png" alt="loja">
+                    <img src="img/fature.png" alt="empresa">
+                    <img src="img/empresa.png" alt="empresa">
+                </div>
+            </div> 
+        </section>
+         <!-- interface final-->
+         <section class = "faça-mais">
+            <div class = "container">
+                <div class = "faça-mais-img">
+                    <img src="img/seguranca.png" alt="marketing">
+                </div>
+                 <div class = "faça-mais-text">
+                    <h3>Preze por um Site seguro</h3> 
+                    <p>Um site confiável possui interações reais  com seus clientes e usúarios. Qualidade é credibilidade.</p>
+                       <a href="contato.html" class = "btn animate-btn">Entrar em Contato</a>
+                </div>
+            </div>
+        </section>
+        <!-- footer-->
+        <footer class = "footer">
+            <div class = "container">
+                <div class = "links">
+                    <a href = "#"><img src="img/instagram.png" alt="redes sociais"></a>
+                    <a href = "#"><img src="img/facebook.png" alt="redes sociais"></i></a>
+                    <a href = "#"><img src="img/github.png" alt="redes sociais"></i></a>
+                    <a href = "#"><img src="img/linkedin.png" alt="redes sociais"></i></a> 
+                </div>
+                <p>Encontre-nos</p>
+            </div>
+        </footer>
+        <script src = "js/script.js"></script>
+    </body>
+</html>
